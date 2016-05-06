@@ -1,3 +1,7 @@
+### Details of This Fork
+
+The intention of this fork is to add [MongoDB](https://github.com/mongodb/node-mongodb-native) and [bCrypt](https://github.com/ncb000gt/node.bcrypt.js/) for user Registration and Login. The related changes can be found in the [src/constants/mongo](https://github.com/pl12133/react-redux-jwt-auth-example/blob/master/src/constants/mongo/) folder.
+
 ### Goal
 
 This project is an example of one possible authentication flow using [react](https://github.com/facebook/react), [redux](https://github.com/rackt/redux), [react-router](https://github.com/rackt/react-router), [redux-router](https://github.com/rackt/redux-router), and [JSON web tokens (JWT)](http://jwt.io/). It is based on the implementation of a [higher-order component](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)

@@ -6,7 +6,7 @@ function mongoFind(collection, query) {
   return new Promise(function(resolve, reject) {
     collection.find(query).toArray((err, results) => {
       if (err) {
-        reject('mongoFind ERR:', err);
+        reject(err);
       } else {
         resolve(results);
       }
@@ -34,7 +34,7 @@ export default function registerNewUser(user) {
                   }
                   collection.insert(insertUser, (err, results) => {
                     if (err) {
-                      reject('collection.insert Error:', err)
+                      reject(err)
                       return;
                     } else {
                       resolve(results);
